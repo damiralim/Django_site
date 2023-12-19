@@ -1,0 +1,32 @@
+site_name: Django site
+
+site_dir: 'documentation'
+
+# site_url: django_docs.ru
+nav:
+  - index: index.md
+  - dev: dev.md
+  - settings: settings.md
+  - blog: blog/models.md
+
+theme:
+  name: material
+
+dev_addr: 127.0.0.1:8200
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - toc:
+      permalink: True
+
+collapse_single_pages: True
+
+plugins:
+  - search
+  - awesome-pages
+
+site_author:
+  Damir Alimzhanov
